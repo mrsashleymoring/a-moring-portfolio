@@ -1,0 +1,246 @@
+/**** BASE STYLES ****/
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #9d636f;
+}
+
+@font-face{
+    font-family: 'Redrock';
+    src: url('../fonts/redrock.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Reey';
+    src: url('../fonts/reey-regular.otf') format('opentype')
+}
+
+@font-face{
+    font-family: 'Quicksand';
+    src: url('../fonts/quicksand-regular.otf') format('opentype')
+}
+
+#portfolio{
+    height: 900px;
+}
+
+#contact{
+    height: 400px;
+}
+
+
+/**** GRID ****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/**** HEADER ****/
+
+header{
+    height: 800px;
+    background: url("../img/pink-with-leaves.png");
+    background-color: #e4a6b1;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+#name{
+    padding: 0 auto;
+    float: left;
+    margin: 0 auto 0 -50px;
+}
+
+#name h2{
+    font-family: 'Redrock', cursive;
+    font-size: 30px;
+    color: #FFBACB;
+}
+
+#name h2 span{
+    color: #805D66;
+}
+
+nav{
+    float: right;
+    padding: 0;
+    margin: auto -100px auto;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 30px;
+    font-family: 'Redrock', cursive;
+    font-size: 30px;
+}
+
+nav ul li a{
+    width: 300px;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-align: center;
+    color: #805D66;
+}
+
+nav ul li a:hover{
+    color: white;
+    background-image: url('../img/jungle-leaf.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+h1{
+    margin: 0;
+    clear: both;
+    padding-top: 150px;
+    font-family: 'Reey', cursive;
+    font-size: 60px;
+}
+
+h1 span{
+    color: #3e573f;
+}
+
+/**** MAIN ****/
+
+#portfolio h2, #contact h2, #about h2{
+    font-family: 'Redrock', cursive;
+    font-size: 36px;
+    color: #FFBACB;
+    text-align: center;
+}
+
+h3, h4{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h3{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 24px;
+}
+
+h4{
+    color: #3e573f;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+p{
+    word-spacing: 3px;
+    font-weight: lighter;
+}
+
+#project-one{
+    height: 350px;
+    padding: 25px;
+}
+#project-one a{
+    float: left;
+    padding-right: 50px;
+    clear: both;
+}
+
+#project-two{
+    height: 350px;
+    padding: 0 25px;
+    text-align: right;
+}
+
+#project-two a{
+    float: right;
+    margin-left: 50px;
+}
+
+#project-one img, #project-two img{
+    border: 5px double #805D66;
+}
+
+#project-one a:hover, #project-two a:hover{
+    opacity: 0.8;
+}
+
+/**** ABOUT ****/
+
+#about{
+    height: 550px;
+    background: url("../img/desktop.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+#about .third-width{
+    float: right;
+    text-align: right;
+}
+
+#about h3{
+    color: #3e573f;
+}
+
+#signature{
+    font-family: 'Redrock', cursive;
+    font-size: 30px;
+}
+
+/**** FOOTER ****/
+
+#contact{
+    text-align: center;
+}
+
+#contact h3{
+    padding: 30px;
+}
+
+#contact p{
+    margin: 0;
+    padding: 0;
+}
+
+#hire-me a{
+    padding: 15px;
+}
+
+#meet-me{
+    margin-bottom: 115px;
+}
+
+#meet-me p{
+    display: inline;
+}
+
+#copyright {
+    clear: both;
+    font-size: 16px;
+}
+
+#credit p{
+    clear: both;
+    color: #803749;
+    font-size: 14px;
+}
+
+#credit a{
+    text-decoration: none;
+    text-decoration: none;
+    color: #803749;
+}
