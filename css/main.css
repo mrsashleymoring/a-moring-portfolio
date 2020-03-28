@@ -52,6 +52,7 @@ body{
 header{
     height: 800px;
     background: url("../img/pink-with-leaves.png");
+    width: 100%;
     background-color: #e4a6b1;
     background-size: cover;
     margin: 0 auto;
