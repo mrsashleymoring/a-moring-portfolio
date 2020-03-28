@@ -62,13 +62,13 @@ header{
 #name{
     padding: 0 auto;
     float: left;
-    margin: 0 auto 0 -50px;
+    margin: 0 auto;
 }
 
 #name h2{
     font-family: 'Redrock', cursive;
     font-size: 30px;
-    color: #FFBACB;
+    color: #ffcfda;
 }
 
 #name h2 span{
@@ -78,7 +78,7 @@ header{
 nav{
     float: right;
     padding: 0;
-    margin: auto -100px auto;
+    margin: auto;
 }
 
 nav ul li{
