@@ -70,6 +70,7 @@ header{
     font-family: 'Redrock', cursive;
     font-size: 30px;
     color: #ffcfda;
+    text-align: left;
 }
 
 #name h2 span{
@@ -98,7 +99,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: white;
+    color: whitesmoke;
     background-image: url('../img/jungle-leaf.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -119,7 +120,7 @@ h1 span{
 
 /**** MAIN ****/
 
-#portfolio h2, #contact h2, #about h2{
+h2{
     font-family: 'Redrock', cursive;
     font-size: 36px;
     color: #FFBACB;
@@ -245,3 +246,39 @@ p{
     text-decoration: none;
     color: #803749;
 }
+
+/********** ABOUT ME PAGE **********/
+
+.about-page header{
+    background: none;
+    background-color: #e4a6b1;
+    margin: 0 auto;
+    padding: 0;
+    height: 100px;
+}
+
+.about-page main{
+    height: 550px;
+    background-image: url(../img/pink-sparkle-fade.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#journey h2{
+    margin: 0;
+    padding-top: 10px;
+    color: #805D66;
+}
+
+#journey h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#journey p{
+    padding: 0 110px 0 110px;
+}
+
+
